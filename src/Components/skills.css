@@ -1,0 +1,39 @@
+/* .skillcontainer{
+    width: 98.9vw;
+    height: 90vh;
+} */
+.skillcontainer {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    /* width: 98.9vw; */
+    height: 97vh;
+  }
+  
+  .skill-item {
+    width: 15vw;
+    display: inline-block;
+    margin: 2vw;
+    background-color: darkslategrey;
+    border: 1px solid white;
+    box-shadow: 0 0 10px white;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+ .skill-item :hover{
+    color: aqua;
+ }
+  .skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .skill-name {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: white;
+  }
+  

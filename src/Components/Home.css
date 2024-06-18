@@ -1,0 +1,83 @@
+.homecontent {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    background-color: darkslategrey;
+    opacity: 0.5;
+    width: 80%;
+    height: 80%;
+    /* display: flex;
+    flex-direction: column; */
+    justify-content: center;
+    border-width: 1px;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+
+}
+
+.homecontent h1 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    /* background-color:black; */
+}
+
+.homecontainer {
+    position: relative;
+    width: 98.9vw;
+    height: 90vh;
+    background-color: rgb(194, 26, 26);
+
+}
+
+.homecontent h1 span {
+    font-size: 40px;
+    background: url("https://media1.tenor.com/m/V5I96N03eRgAAAAC/rainbow-heart-hearts.gif");
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.homecontent p {
+    color: aliceblue;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.contact-icons {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.contact-icons a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.contact-icons a:hover {
+    color: aqua;
+}
+
+.learnmore {
+    border-radius: 10px;
+    align-content: end;
+    cursor: pointer;
+    background-color: aliceblue;
+    width: 240px;
+    margin-left: 40%;
+}
+
+.learnmore:hover {
+    background-color: aqua;
+    color: aliceblue;
+}
+
+.learnmore p {
+    font-size: 18px;
+    text-transform: capitalize;
+    color: darkslategrey;
+}

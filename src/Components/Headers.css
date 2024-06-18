@@ -1,0 +1,57 @@
+.container {
+    display: flex;
+    align-items: center;
+    flex: 2;
+    width: "100%vw";
+    /* position: fixed;
+    z-index: -10; */
+    justify-content: space-between;
+    background-color:darkslategrey;
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex: 2;
+    
+}
+.title {
+    list-style: none;
+    display: flex;
+    flex: 1;
+    padding-left: 20px;
+}
+ul li {
+    position: relative;
+    margin: 0 20px;
+    
+}
+ul li a {
+    color: antiquewhite;
+}
+ul li ::before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    width: 0px;
+    height: 2px;
+    background:antiquewhite;
+    transition: all 0.3s ease-in-out;
+}
+
+ul li :hover::before{
+    width: 100%;
+    left: 0px;
+}
+
+.titlename a {
+    font-size: 20px;
+    color:ghostwhite;
+    font-weight: 600;
+}
+.downloadCv a {
+    font-size: 16px;
+    color:darkgray;
+    font-weight: 600;
+}
