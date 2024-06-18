@@ -9,6 +9,7 @@ function App() {
     <div style={{ backgroundColor: "darkslategrey" }}>
       <Header />
       <Home />
+      {/* jfvjnvf */}
       <Skills />
     </div>
   );
