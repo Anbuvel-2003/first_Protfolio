@@ -18,9 +18,9 @@ function Header() {
         <li>
           <a href="#">Project</a>
         </li>
-        <li>
+        {/* <li>
           <a href="#">Experience</a>
-        </li>
+        </li> */}
         <li>
           <a href="#">Contact</a>
         </li>
